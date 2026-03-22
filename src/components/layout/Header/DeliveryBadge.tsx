@@ -1,7 +1,7 @@
 import Image from 'next/image'
-import './Delivery.css'
+import './Header.css'
 
-export default function Delivery() {
+export function DeliveryBadge() {
   return (
     <div className="delivery">
       <div className="delivery-wrapper">
